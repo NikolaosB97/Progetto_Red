@@ -1,0 +1,251 @@
+/* Generici */
+:root { 
+    --primary-red: #8c0304;
+    --secondary-grey:#ececec;
+}
+.custom-red{
+    color: var(--primary-red);
+    font-family: 'Nova Square', cursive;
+}
+
+.custom-redx {
+    color: var(--primary-red);
+    font-family: 'Nova Square', cursive;
+    font-size: 4rem;;
+}
+
+.absolutepos1 {
+    position: absolute;
+    top:-1rem;
+    left: 0rem;
+}
+.absolutepos2 {
+    position: absolute;
+    bottom: 0rem;
+    right: 3rem;
+}
+
+
+
+.custom-title{
+    color: white;
+    font-family: 'Nova Square';
+}
+
+body{
+font-family: 'Rajdhani', sans-serif;
+}
+.background-custom{
+    background-color: var(--secondary-grey);
+}
+main{
+    background-color: var(--secondary-grey);
+}
+
+/* Fine Generici */
+
+/* Navbar */
+.navbar-brand img{
+    width: 150px;
+    
+    
+}
+
+.navcontainer {
+    flex-direction:column;
+
+}
+
+.navbar {
+    margin:0;
+    padding:0;
+    
+}
+
+/* .seclorem {
+    margin-right:0px!important;
+    margin-left:0px!important;
+} */
+
+@media only screen and (max-width:992px) {
+    .navbar .navcontainer {
+        flex-direction:row!important;
+        justify-content: center!important;
+    }
+}
+
+
+
+.nav-item {
+    padding: 0px 50px;
+    padding-top: 5px;
+}
+/* Navbar Fine */
+
+/* Header */
+.header-custom{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(to bottom ,rgb(255,255,255), rgb(0,0,0,0)), url(./media/mountains2.png),url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.h1-custom{
+    font-size: 5rem;
+    letter-spacing: 60px;
+    font-family: 'Nova Square', cursive;
+    /* padding-left: 50px!important; */
+}
+
+@media only screen and (max-width:800px) {
+    .h1-custom{
+        font-size: 2rem;
+        letter-spacing: 10px;
+        font-family: 'Nova Square', cursive;
+        /* padding-left: 50px!important; */
+    }
+}
+/* Fine Header */
+/* .pseudop::before {
+    content: '"';
+    color: #8c0304;
+    font-size: 4rem;
+    font-weight: 500;
+
+} */
+
+/* .pseudop::after {
+    content: '"';
+    color: #8c0304;
+    font-size: 4rem;
+    font-weight: 500;
+    transform: rotate(180deg);
+
+} */
+
+
+
+.icon-img{
+    font-size: 50px;
+}
+.border-custom{
+    border-bottom: 2px solid #8c0304;
+    padding: 8px 45px;
+}
+.cerchio-custom{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border: 2px solid #8c0304;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 7px;
+    
+}
+/* Fine Prima section icone */
+
+.header-custom2 {
+    width: 100%;
+    height: 40vh;
+    background: url(/media/trees2.png);
+    background-color: #ececec;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-custom {
+    border: solid 2px var(--primary-red)!important;
+    background-color: #8c0304;
+    color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Fine terza section BOTTONE con alberi */
+
+.border-timeline {
+    border-left: 2px solid #8c0304;
+    position:relative
+
+}
+.h3-timeline::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border: 2px solid #8c0304;
+    border-radius: 50%;
+    position: absolute;
+    left:-12px;
+}
+
+
+.header-custom3 {
+    width: 100%;
+    background: url(/media/single.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: white;
+}
+
+/* FINE TIMELINE */
+
+
+.img-custom{
+    height: 150px;
+    width: 150px;
+    border: solid #8c0304 3px;
+    border-radius: 50%;
+    padding: 8px; 
+
+}
+.h2-custom{
+    font-family: 'Nova Square';
+}
+.icone{
+    letter-spacing: 10px;
+}
+.img-custom2{
+    width: 250px;
+    height: 250px;
+    border: solid #8c0304 3px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.background-end {
+    height: 40vh;
+    background-image: url(/media/other.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.background-footer{
+    background-color: var(--primary-red);
+}
+
+.custom-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:800px) {
+    .custom-links{
+        display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+    }
